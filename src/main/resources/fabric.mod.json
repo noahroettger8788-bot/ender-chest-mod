@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "enderpickup",
+  "version": "${version}",
+  "name": "Ender Pickup",
+  "description": "Taste K: Items in Reichweite landen automatisch in der Enderchest.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.enderpickup.EnderPickup"],
+    "client": ["de.enderpickup.client.EnderPickupClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
